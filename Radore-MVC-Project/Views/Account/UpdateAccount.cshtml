@@ -1,0 +1,65 @@
+﻿@model HostingDetailDto
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h3 class="text-center">Account Güncelle</h3>
+<a class="btn btn-outline-info btn-sm  float-end my-2" asp-action="Index" asp-controller="Account"><i class="bi bi-arrow-left"></i>Listeye geri dön</a>
+<br />
+<br />
+<br />
+<form class="border rounded form-horizontal p-3" asp-action="UpdateAccount" asp-controller="Account" method="post">
+    <div class="row">
+        <div class="form-group mt-1 col-4">
+            <label>
+                Hosting Domain Name<span class="text-danger">*</span>
+            </label>
+            <input asp-for="@Model.HostingDomainName" class="form-control" value="@Model.HostingDomainName" />
+            <span asp-validation-for="@Model.HostingDomainName" class="text-danger"></span>
+        </div>
+        <div class="form-group mt-1 col-4">
+            <label>
+                Hosting Package<span class="text-danger">*</span>
+            </label>
+            <input asp-for="@Model.HostingPackage" class="form-control" value="@Model.HostingPackage" />
+            <span asp-validation-for="@Model.HostingPackage" class="text-danger"></span>
+        </div>
+        <div class="form-group mt-1 col-4">
+            <label>
+                Incoming Connections
+
+            </label>
+            <input asp-for="@Model.IncomingConnections" class="form-control" type="number" value="@Model.IncomingConnections" />
+            <span asp-validation-for="@Model.IncomingConnections" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group mt-1 col-4">
+            <label>
+                CPU Load
+            </label>
+            <input asp-for="@Model.CpuLoad" class="form-control" type="number" value="@Model.CpuLoad" />
+            <span asp-validation-for="@Model.CpuLoad" class="text-danger"></span>
+        </div>
+        <div class="form-group mt-1 col-4">
+            <label>
+                Ram Max
+
+            </label>
+            <input asp-for="@Model.RamMax" class="form-control" type="number" value="@Model.RamMax" />
+            <span asp-validation-for="@Model.RamMax" class="text-danger"></span>
+        </div>
+        <div class="form-group mt-1 col-4">
+            <label>
+                Ram Usage
+
+            </label>
+            <input asp-for="@Model.RamUsage" class="form-control" type="number" value="@Model.RamUsage" />
+            <span asp-validation-for="@Model.RamUsage" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group mt-2 text-end">
+        <button type="submit" class="btn btn-primary mx-auto">Kaydet</button>
+    </div>
+    <div asp-validation-summary="ModelOnly" class="text-danger">
+    </div>
+</form>

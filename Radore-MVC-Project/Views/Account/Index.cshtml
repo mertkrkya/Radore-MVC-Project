@@ -1,0 +1,72 @@
+﻿@model List<HostingDetailDto>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int i = 0;
+    var message = TempData["message"];
+}
+<style>
+    .table-row {
+        cursor: pointer;
+    }
+</style>
+<h2 class="text-center mt-2">Aktif Accountlar</h2>
+<div class="mt-3">
+    <a class="btn btn-danger btn-sm  float-end mb-2" asp-action="CreateAccount" asp-controller="Account">Yeni Account Ekle +</a>
+    <table class="table table-bordered table-condensed table-striped table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Hosting Domain Name</th>
+                <th>Hosting Package</th>
+                <th>Incoming Connections</th>
+                <th>CPU Load</th>
+                <th>Ram Max</th>
+                <th>Ram Usage</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="table-row">
+                    <a asp-action="UpdateAccount" asp-controller="Account" asp-route-hostingDomainName="@item"></a>
+                    <td>@i</td>
+                    <td>@item.HostingDomainName</td>
+                    <td>@item.HostingPackage</td>
+                    <td>@item.IncomingConnections</td>
+                    <td>@item.CpuLoad</td>
+                    <td>@item.RamMax</td>
+                    <td>@item.RamUsage</td>
+                    <td>
+                        <a asp-action="UpdateAccount" asp-controller="Account" asp-route-hostingDomainName="@item.HostingDomainName" type="button" class="btn btn-primary"><i class="bi bi-pencil-fill"></i></a>
+                        <a asp-action="DeleteAccount" asp-controller="Account" asp-route-hostingDomainName="@item.HostingDomainName" asp-route-hostingPackage="@item.HostingPackage" type="button" class="btn btn-danger mx-3"><i class="bi bi-trash3-fill"></i></a>
+                    </td>
+                @{
+                    i++;
+                }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+@section scripts{
+    <script>
+        $(document).on("click","#deleteItem",function () {
+            $('#myModal').modal('show');
+        });
+        $(document).ready(function () {
+            if ('@TempData["message"]' == "Added") {
+                toastr.success('Account başarılı bir şekilde eklenmiştir.', 'Başarılı');
+            }
+            else if ('@TempData["message"]' == "Updated") {
+                toastr.success('Account başarılı bir şekilde güncellenmiştir.', 'Başarılı');
+            }
+            else if ('@TempData["message"]' == "Deleted") {
+                toastr.success('Account başarılı bir şekilde silinmiştir.', 'Başarılı');
+            }
+            else if ('@TempData["message"]' == "Error") {
+                toastr.error('Bir hata meydana geldi.', 'Hata');
+            }
+        });
+    </script>
+}
