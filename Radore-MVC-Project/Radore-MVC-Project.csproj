@@ -6,27 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
-    <Compile Include="obj\Debug\net5.0\Radore-MVC-Project.AssemblyInfo.cs" />
-    <Compile Include="obj\Debug\net5.0\Radore-MVC-Project.MvcApplicationPartsAssemblyInfo.cs" />
-    <Compile Include="obj\Debug\net5.0\Radore-MVC-Project.RazorAssemblyInfo.cs" />
-    <Compile Include="obj\Debug\net5.0\Radore-MVC-Project.RazorTargetAssemblyInfo.cs" />
-    <Compile Include="obj\Debug\net5.0\Razor\Views\Account\CreateAccount.cshtml.g.cs" />
-    <Compile Include="obj\Debug\net5.0\Razor\Views\Account\Index.cshtml.g.cs" />
-    <Compile Include="obj\Debug\net5.0\Razor\Views\Account\UpdateAccount.cshtml.g.cs" />
-    <Compile Include="obj\Debug\net5.0\Razor\Views\Home\Status.cshtml.g.cs" />
-    <Compile Include="obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs" />
-    <Compile Include="obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="bin\Debug\net5.0\appsettings.Development.json" />
-    <Content Include="bin\Debug\net5.0\appsettings.json" />
-    <Content Include="bin\Debug\net5.0\package-lock.json" />
-    <Content Include="bin\Debug\net5.0\package.json" />
-    <Content Include="bin\Debug\net5.0\Radore-MVC-Project.deps.json" />
-    <Content Include="bin\Debug\net5.0\Radore-MVC-Project.runtimeconfig.dev.json" />
-    <Content Include="bin\Debug\net5.0\Radore-MVC-Project.runtimeconfig.json" />
     <Content Include="node_modules\bootstrap-icons\font\bootstrap-icons.css" />
     <Content Include="node_modules\bootstrap-icons\font\bootstrap-icons.json" />
     <Content Include="node_modules\bootstrap-icons\font\fonts\bootstrap-icons.woff" />
@@ -67,98 +46,9 @@
     <Content Include="node_modules\toastr\tests\qunit\qunit.css" />
     <Content Include="node_modules\toastr\tests\toastr-tests.html" />
     <Content Include="node_modules\toastr\toastr-icon.png" />
-    <Content Include="obj\Debug\net5.0\project.razor.vs.json" />
-    <Content Include="obj\Debug\net5.0\Radore-MVC-Project.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\project.assets.json" />
-    <Content Include="obj\Radore-MVC-Project.csproj.nuget.dgspec.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll" />
-    <None Include="bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\FluentValidation.AspNetCore.dll" />
-    <None Include="bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll" />
-    <None Include="bin\Debug\net5.0\FluentValidation.dll" />
-    <None Include="bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\Humanizer.dll" />
-    <None Include="bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.CodeAnalysis.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" />
-    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" />
-    <None Include="bin\Debug\net5.0\Newtonsoft.Json.dll" />
-    <None Include="bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\Radore-MVC-Project.dll" />
-    <None Include="bin\Debug\net5.0\Radore-MVC-Project.exe" />
-    <None Include="bin\Debug\net5.0\Radore-MVC-Project.pdb" />
-    <None Include="bin\Debug\net5.0\Radore-MVC-Project.Views.dll" />
-    <None Include="bin\Debug\net5.0\Radore-MVC-Project.Views.pdb" />
-    <None Include="bin\Debug\net5.0\RestSharp.dll" />
-    <None Include="bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe" />
-    <None Include="bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe" />
-    <None Include="bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\System.Composition.AttributedModel.dll" />
-    <None Include="bin\Debug\net5.0\System.Composition.Convention.dll" />
-    <None Include="bin\Debug\net5.0\System.Composition.Hosting.dll" />
-    <None Include="bin\Debug\net5.0\System.Composition.Runtime.dll" />
-    <None Include="bin\Debug\net5.0\System.Composition.TypedParts.dll" />
-    <None Include="bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
-    <None Include="bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
-    <None Include="bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
-    <None Include="bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
     <None Include="node_modules\bootstrap-icons\bootstrap-icons.svg" />
     <None Include="node_modules\bootstrap-icons\font\bootstrap-icons.scss" />
     <None Include="node_modules\bootstrap-icons\font\fonts\bootstrap-icons.woff2" />
@@ -2490,31 +2380,6 @@
     <None Include="node_modules\toastr\toastr.js" />
     <None Include="node_modules\toastr\toastr.less" />
     <None Include="node_modules\toastr\toastr.scss" />
-    <None Include="obj\Debug\net5.0\apphost.exe" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.AssemblyInfoInputs.cache" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.assets.cache" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.csproj.BuildWithSkipAnalyzers" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.csproj.CopyComplete" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.dll" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.genruntimeconfig.cache" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.MvcApplicationPartsAssemblyInfo.cache" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.pdb" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.RazorAssemblyInfo.cache" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.RazorCoreGenerate.cache" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.RazorTargetAssemblyInfo.cache" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.TagHelpers.input.cache" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.TagHelpers.output.cache" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.Views.dll" />
-    <None Include="obj\Debug\net5.0\Radore-MVC-Project.Views.pdb" />
-    <None Include="obj\Debug\net5.0\refint\Radore-MVC-Project.dll" />
-    <None Include="obj\Debug\net5.0\ref\Radore-MVC-Project.dll" />
-    <None Include="obj\Debug\net5.0\staticwebassets\Radore-MVC-Project.StaticWebAssets.Manifest.cache" />
-    <None Include="obj\project.nuget.cache" />
-    <None Include="obj\Radore-MVC-Project.csproj.nuget.g.props" />
-    <None Include="obj\Radore-MVC-Project.csproj.nuget.g.targets" />
   </ItemGroup>
 
   <ItemGroup>
