@@ -1,10 +1,6 @@
 # Account MVC Projesi
 Accountların listelenebildiği, oluşturulabildiği, düzenlenebildiği ve silinebildiği bir MVC uygulamasıdır.
 
-- Projenin başarıyla çalışması için npm paketleri eksiksiz bir şekilde yüklenmelidir.
-```
-Proje dosya yolunda "npm i" komutu çalıştırılarak npm paketleri yüklenebilir.
-```
 ### Arayüzler
 #### Anasayfa
 ![image](https://user-images.githubusercontent.com/44789033/191125882-31aabb3c-8b92-42ec-9f07-4218fb846b00.png)
